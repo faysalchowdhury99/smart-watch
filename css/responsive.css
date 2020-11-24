@@ -1,0 +1,96 @@
+@media screen and (max-width:1199px){
+    .subscribe-input-box input{
+        width: 75%;
+    }
+}
+@media screen and (max-width:991px){
+    #header-section{
+        height: auto;
+    }
+    .header-content{
+        position: static;
+        text-align: center;
+        padding: 12rem 0;
+    }
+    .navbar-nav{
+        padding: 2rem 0;
+    }
+    .nav-link{
+        margin-left: 0;
+    }
+    .nav-link::after{
+        width: 0;
+        height: 0;
+    }
+    #about-section{
+        text-align: center;
+    }
+    .other-feature-box{
+        height: 100% !important;
+    }
+}
+@media screen and (max-width:575px){
+    .navbar-brand{
+        font-size: 2.5rem;
+    }
+    .header-content h1{
+        font-size: 4rem;
+    }
+    .section{
+        padding: 7rem 0;
+    }
+    .heading{
+        font-size: 3rem;
+    }
+    .other-feature-box{
+        background-color: #ffffff !important;
+    }
+    .other-feature-box h3{
+        color: #242424 !important;
+    }
+    .other-feature-box img, .other-feature-box i{
+        border: 1px dashed #333333 !important;
+    }
+    .subscribe-input-box input{
+        width: 70%;
+    }
+    .accordion button[aria-expanded='true'] + .accordion-content {
+        max-height: 25rem;
+    }
+}
+@media screen and (max-width:400px){
+    .subscribe-input-box input{
+        width: 60%;
+    }
+}
+@media screen and (max-width:355px){
+    .subscribe-box .btn{
+        margin: 0 !important;
+        margin-top: 1rem !important;
+    }
+}
+
+/* Header Content Responsive */
+@media screen and (min-width:992px){
+    .header-content{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 960px;
+        margin: auto;
+        transform: translate(-50%,-50%);
+        -webkit-transform: translate(-50%,-50%);
+        -moz-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+        -o-transform: translate(-50%,-50%);
+        padding: 1.5rem;
+    }
+    #features-section .about-watch{
+        width: 100% !important;
+    }
+}
+@media screen and (min-width:1200px){
+    .header-content{
+        width: 1140px;
+    }
+}
